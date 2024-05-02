@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <article>
+            <div id="calculator">
+                <input id="display" type="text" readonly>
+                <div id="keyboard">
+                    <button onclick="onKeyClick('+')" class="operator">+</button>
+                    <button onclick="onKeyClick('7')">7</button>
+                    <button onclick="onKeyClick('8')">8</button>
+                    <button onclick="onKeyClick('9')">9</button>
+                    <button onclick="onKeyClick('-')" class="operator">-</button>
+                    <button onclick="onKeyClick('4')">4</button>
+                    <button onclick="onKeyClick('5')">5</button>
+                    <button onclick="onKeyClick('6')">6</button>
+                    <button onclick="onKeyClick('*')" class="operator">*</button>
+                    <button onclick="onKeyClick('1')">1</button>
+                    <button onclick="onKeyClick('2')">2</button>
+                    <button onclick="onKeyClick('3')">3</button>
+                    <button onclick="onKeyClick('/')" class="operator">/</button>
+                    <button onclick="onKeyClick('0')">0</button>
+                    <button onclick="onKeyClick('.')">.</button>
+                    <button onclick="calculate()">=</button>
+                    <button onclick="clearDisplay()" class="operator">C</button>
+                </div>
+            </div>
+        </article>
+    </body>
+    <script src="index.js"></script>
+</html>
